@@ -1,6 +1,6 @@
 class Application
   def call(env)
-    env
+    puts env
     if env < 12
       puts "Good Morning!"
     else 
