@@ -1,7 +1,7 @@
 class Application
-  def call(time)
-    puts time
-    if time< 12
+  def call(Time)
+    #puts time
+    if Time.now< 12
       puts "Good Morning!"
     else 
       puts "Good Afternoon"
