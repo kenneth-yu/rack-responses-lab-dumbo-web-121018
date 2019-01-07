@@ -1,7 +1,9 @@
-def time
-  if hour < 12
-    puts "Good Morning!"
-   else 
-    puts "Good Afternoon"
-   end
+class Application
+  def time
+    if hour < 12
+      puts "Good Morning!"
+    else 
+      puts "Good Afternoon"
+    end
+  end
 end
