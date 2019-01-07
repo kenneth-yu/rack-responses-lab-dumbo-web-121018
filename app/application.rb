@@ -1,6 +1,6 @@
 class Application
   def call(env)
-    if hour < 12
+    if env < 12
       puts "Good Morning!"
     else 
       puts "Good Afternoon"
