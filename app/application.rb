@@ -1,5 +1,5 @@
 class Application
-  def call(Time)
+  def call(env)
     #puts time
     if Time.now< 12
       puts "Good Morning!"
